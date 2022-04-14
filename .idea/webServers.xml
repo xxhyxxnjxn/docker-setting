@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aca4d093-81af-4710-8e64-4bb99191dba0" name="hanaro-holdings-gmc">
+        <fileTransfer accessType="SFTP" host="221.168.39.103" port="22" sshConfigId="ec9e0061-b471-4dc4-88eb-f245487575b8" sshConfig="root@221.168.39.103:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
