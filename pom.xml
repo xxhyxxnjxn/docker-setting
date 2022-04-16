@@ -63,6 +63,11 @@
             <optional>true</optional>
         </dependency>
         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
@@ -122,12 +127,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-rng-simple</artifactId>
             <version>1.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.nbp.ncp</groupId>
-            <artifactId>nes-client</artifactId>
-            <version>1.6.0F</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.github.maricn</groupId>

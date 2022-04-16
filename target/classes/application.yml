@@ -3,10 +3,10 @@ spring:
     activate:
       on-profile: local
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://221.168.39.103:5432/hanaroholdings?autoReconnect=true&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-    username: goodman
-    password: Gmc@1234!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: 1234
     dbcp2:
       test-while-idle: true
   jpa:
@@ -38,24 +38,36 @@ server:
       force: true
   error:
     include-message: always
-
-profile:
-  certification:
-    host: localhost
 ---
 spring:
   config:
     activate:
       on-profile: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://test:3306/test?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: 1234
+    dbcp2:
+      test-while-idle: true
+  jpa:
+    open-in-view: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: true
+    properties:
+      hibernate:
+        #        show_sql: true
+        format_sql: true
   jackson:
     serialization:
       fail-on-empty-beans: false
   output:
     ansi:
       enabled: detect
-  redis:
-    host: localhost
-    port: 6379
 
 server:
   port: 9000
@@ -67,8 +79,4 @@ server:
       force: true
   error:
     include-message: always
-
-profile:
-  certification:
-    host: 221.168.39.103
 

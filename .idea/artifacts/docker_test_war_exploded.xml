@@ -74,6 +74,7 @@
           <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:1.2.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.6.6" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.6" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.3.3" />
           <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
           <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
@@ -91,14 +92,6 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-rng-client-api:1.4" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-rng-simple:1.4" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-rng-core:1.4" />
-          <element id="library" level="project" name="Maven: com.nbp.ncp:nes-client:1.6.0F" />
-          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.9" />
-          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
-          <element id="library" level="project" name="Maven: com.squareup.okhttp3:logging-interceptor:3.14.9" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.2" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" />
-          <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.7" />
-          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
           <element id="library" level="project" name="Maven: com.github.maricn:logback-slack-appender:1.4.0" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.11" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.11" />
